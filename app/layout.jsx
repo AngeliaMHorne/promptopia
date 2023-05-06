@@ -4,11 +4,10 @@ import Provider from '@components/Provider';
 
 export const metadata = {
     title: "Promptopia",
-    description: "Discover and Share AI Prompts"
+    description: "Discover and Share AI Prompts",
 }
 
-const RootLayout = ( {children} ) => {
-  return (
+const RootLayout = ( {children} ) => (
     <html lang="en">
         <body>
             <Provider>
@@ -23,7 +22,6 @@ const RootLayout = ( {children} ) => {
             </Provider>
         </body>
     </html>
-  )
-}
+  );
 
 export default RootLayout;
